@@ -11,4 +11,10 @@ console.log(`Push update: ${heroes}`);
 
 heroes.pop()
 const removedLastHero = "Black Panther"
-console.log(`Pop update: ${heroes}`);
+console.log(`Removed Hero: ${removedLastHero}`);
+console.log(`Heroes update: ${heroes}`);
+
+heroes.shift()
+const removedFirstHero = "Iron-Man"
+console.log(`Removed Hero: ${removedFirstHero}`)
+console.log(`Updated Heroes: ${heroes}`)
