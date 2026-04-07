@@ -19,8 +19,12 @@ const removedFirstHero = "Iron-Man"
 console.log(`Removed Hero: ${removedFirstHero}`);
 console.log(`Updated Heroes: ${heroes}`);
 
-heroes.unshift(Iron-Man)
+heroes.unshift("Iron-Man")
 console.log(`Readded Hero: ${heroes}`);
 
-console.log(indexOf("Iron-Man"));
+console.log(heroes.indexOf("Iron-Man"));
+const heroPosition = "0"
+console.log(`In the varriable heroes Iron-Man is in position: ${heroPosition}`)
 
+console.log(`theese are the first 3 heros`)
+console.log(heroes.length(3))
