@@ -24,7 +24,8 @@ console.log(`Readded Hero: ${heroes}`);
 
 console.log(heroes.indexOf("Iron-Man"));
 const heroPosition = "0"
-console.log(`In the varriable heroes Iron-Man is in position: ${heroPosition}`)
+console.log(`In the varriable heroes Iron-Man is in position: ${heroPosition}`);
 
-console.log(`theese are the first 3 heros`)
-console.log(heroes.length(3))
+
+heroes.length = 3
+console.log(`theese are the first 3 heros ${heroes}`);
