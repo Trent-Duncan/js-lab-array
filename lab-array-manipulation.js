@@ -16,5 +16,11 @@ console.log(`Heroes update: ${heroes}`);
 
 heroes.shift()
 const removedFirstHero = "Iron-Man"
-console.log(`Removed Hero: ${removedFirstHero}`)
-console.log(`Updated Heroes: ${heroes}`)
+console.log(`Removed Hero: ${removedFirstHero}`);
+console.log(`Updated Heroes: ${heroes}`);
+
+heroes.unshift(Iron-Man)
+console.log(`Readded Hero: ${heroes}`);
+
+console.log(indexOf("Iron-Man"));
+
