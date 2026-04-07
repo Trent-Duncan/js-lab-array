@@ -8,3 +8,7 @@ console.log(`Current superhero team: ${heroes}`);
 
 heroes.push("Black Panther")
 console.log(`Push update: ${heroes}`);
+
+heroes.pop()
+const removedLastHero = "Black Panther"
+console.log(`Pop update: ${heroes}`);
